@@ -1,0 +1,91 @@
+[
+    {
+        "label": "Enum",
+        "importPath": "enum",
+        "description": "enum",
+        "isExtraImport": true,
+        "detail": "enum",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "break sttmnt",
+        "description": "break sttmnt",
+        "peekOfCode": "i = 0\nwhile 1 < 7:\n    print(i)\n    if(i == 4):\n        print(\"Breaking the loop\")\n        break\n    i += 1\nfor i in (0, 1, 2, 3, 4):\n    print(i)\n    if i == 2:",
+        "detail": "break sttmnt",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "kind": 6,
+        "importPath": "enumerate",
+        "description": "enumerate",
+        "peekOfCode": "class Color(Enum):\n    red = 1,\n    green = 2,\n    blue = 3\nprint(Color.red)\nprint(Color.green)\nprint(Color.blue)\nclass Color(Enum):\n    red = 1\n    green = 2",
+        "detail": "enumerate",
+        "documentation": {}
+    },
+    {
+        "label": "Color",
+        "kind": 6,
+        "importPath": "enumerate",
+        "description": "enumerate",
+        "peekOfCode": "class Color(Enum):\n    red = 1\n    green = 2\n    blue  = 3\n[c for c in Color]",
+        "detail": "enumerate",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "for_works loops",
+        "description": "for_works loops",
+        "peekOfCode": "x = map(lambda e : e.upper(), ['one', 'two', 'three', 'four'])\nprint(list(x))\n\"\"\"In python 3.x map returns an iterator instead of a list so incase you\n    eed a list you have to cast the result print(list(x))\"\"\"",
+        "detail": "for_works loops",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "headsup",
+        "description": "headsup",
+        "peekOfCode": "a = [1, 2, 3, 4]\nfor i in a:\n    if type(i) is not int:\n        print(i)\n        break\nelse:\n    print('NO EXCEPTION')",
+        "detail": "headsup",
+        "documentation": {}
+    },
+    {
+        "label": "i",
+        "kind": 5,
+        "importPath": "loops with else clause",
+        "description": "loops with else clause",
+        "peekOfCode": "i = 0\nwhile i < 3:\n    print(i)\n    i += 1\nelse:\n    print('done')\n\"\"\"The else clause does not execute if the loop terminats through a break statement\n    or by raising an exception.\"\"\"\nfor i in range(2):\n    print(i)",
+        "detail": "loops with else clause",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "loops with else clause",
+        "description": "loops with else clause",
+        "peekOfCode": "a = [1, 2, 3, 4]\nfor i in a:\n    if type(i) is not int:\n        print(i)\n        break\nelse:\n    print('NO EXCEPTION')",
+        "detail": "loops with else clause",
+        "documentation": {}
+    },
+    {
+        "label": "break_loop",
+        "kind": 2,
+        "importPath": "nested loops",
+        "description": "nested loops",
+        "peekOfCode": "def break_loop():\n    for i in range(1, 5):\n        if i == 2:\n            return (i)\n        print(i)\n    return(5)\ndef break_all():\n    for j in range(1, 5):\n        for i in range(1, 4):\n            if i*j == 6:",
+        "detail": "nested loops",
+        "documentation": {}
+    },
+    {
+        "label": "break_all",
+        "kind": 2,
+        "importPath": "nested loops",
+        "description": "nested loops",
+        "peekOfCode": "def break_all():\n    for j in range(1, 5):\n        for i in range(1, 4):\n            if i*j == 6:\n                return(i)\n            print(i*j)",
+        "detail": "nested loops",
+        "documentation": {}
+    }
+]
